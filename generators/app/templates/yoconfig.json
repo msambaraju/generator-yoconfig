@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "<%= packageName %>"
+    },
+    "jhipsterVersion": "4.5.3",
+    "baseName": "<%= appName %>",
+    "packageName": "<%= packageName %>",
+    "packageFolder": "<%= packageFolder %>",
+    "serverPort": "8000",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "<%= dbType %>",
+    "devDatabaseType": "<%= dbType %>",
+    "prodDatabaseType": "<%= dbType %>",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "5912e0dc02b7ee8eac69cfde3acafc4b3ef8cb3e",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "clientPackageManager": "yarn",
+    "useSass": false
+  }
+}
